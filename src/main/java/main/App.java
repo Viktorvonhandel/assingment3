@@ -69,10 +69,10 @@ public class App {
         
 
         int choice = sc.nextInt();
-        sc.nextLine();
-
+        
         switch (choice) {
             case 1:
+                sc.nextLine();
                 System.out.print("Mikä laji? ");
                 String species = sc.nextLine();
 
