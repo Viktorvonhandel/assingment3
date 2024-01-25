@@ -58,7 +58,7 @@ public class App {
 
         boolean exit =false;
 
-        System.out.print("Anna eläintarhan nimi: \n");
+        System.out.print("Anna eläintarhalle nimi: \n");
             String zooName = sc.nextLine();
             Zoo zoo = new Zoo (zooName);
             
@@ -72,13 +72,13 @@ public class App {
 
         switch (choice) {
             case 1:
-                System.out.print("Mikä laji? \n");
+                System.out.print("Mikä laji?");
                 String species = sc.nextLine();
 
-                System.out.print("Anna eläimen nimi: \n");
+                System.out.print("Anna eläimen nimi:");
                 String name = sc.nextLine();
 
-                System.out.print("Anna eläimen ikä: \n");
+                System.out.print("Anna eläimen ikä:");
                 int age = sc.nextInt();
                 sc.nextLine(); 
 
