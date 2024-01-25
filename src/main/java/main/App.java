@@ -61,24 +61,24 @@ public class App {
         System.out.print("Anna eläintarhan nimi: \n");
             String zooName = sc.nextLine();
             Zoo zoo = new Zoo (zooName);
-            System.err.println(zooName);
+            
             
     
     while (!exit) {
-        System.out.println("1) Lisää uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksuta eläimiä, 0) Lopeta");
+        System.out.println("1) Luo uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksuta eläimiä, 0) Lopeta ohjelma");
         
 
         int choice = sc.nextInt();
 
         switch (choice) {
             case 1:
-                System.out.print("Syötä laji: ");
+                System.out.print("Mikä laji? \n");
                 String species = sc.nextLine();
 
-                System.out.print("Syötä nimi: ");
+                System.out.print("Anna eläimen nimi: \n");
                 String name = sc.nextLine();
 
-                System.out.print("Syötä ikä: ");
+                System.out.print("Anna eläimen ikä: \n");
                 int age = sc.nextInt();
                 sc.nextLine(); 
 
